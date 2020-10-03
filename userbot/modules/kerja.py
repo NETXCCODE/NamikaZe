@@ -158,11 +158,12 @@ async def typewriter(typew):
 	sleep(0)
 	await typew.edit("`Untuk melihat tampilan yang di inginkan\n Silahkan cek`\n [Disini](https://t.me/DemoScript) \n#DemoWeb")
 	
-@register(outgoing=True, pattern='^.ucok(?: |$)(.*)')
+@register(outgoing=True, pattern='^.netcode(?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("okeeee")
+	await typew.edit("`Untuk melihat tampilan yang di inginkan\n Silahkan cek`\n [Disini](https://t.me/DemoScript) \n#DemoWeb")
+
 
 # Create by myself @JejakCheat
 
