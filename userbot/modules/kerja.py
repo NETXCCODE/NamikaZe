@@ -69,6 +69,16 @@ async def typewriter(typew):
 			 f"Note : `Garansi tidak akan habis sebelum durasi website telah habis, dan ketika durasi di perpanjang maka garansi akan ikut diperpanjang`\n"
 			 f"Usahakan untuk komplain / menggunakan garansi maka sertakan ORDER ID\n"
 			 f"Order ID ada di data phising, dan itu sangatlah berguna")
+	
+@register(outgoing=True, pattern='^.4(?: |$)(.*)')
+async def typewriter(typew):
+	message = typew.pattern_match.group(0)
+	sleep(0)
+	await typew.edit("Website Phising telah dibuat\n\n"
+			 f"Garansi : Full\n"
+			 f"Note : `Garansi tidak akan habis sebelum durasi website telah habis, dan ketika durasi di perpanjang maka garansi akan ikut diperpanjang`\n"
+			 f"Usahakan untuk komplain / menggunakan garansi maka sertakan ORDER ID\n"
+			 f"Order ID ada di data phising, dan itu sangatlah berguna")
 
 @register(outgoing=True, pattern='^.whm(?: |$)(.*)')
 async def typewriter(typew):
