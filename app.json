@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/lazaruz404/NamikaZe",
+  "repository": "https://github.com/NETXCCODE/NamikaZe",
   "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
-  "success_url": "https://t.me/Abucuyy",
+  "success_url": "https://t.me/ArdanzPanel",
   "stack": "container",
   "env": {
     "API_KEY": {
